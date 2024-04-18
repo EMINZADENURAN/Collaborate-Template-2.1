@@ -7,6 +7,14 @@ body {
     margin: auto;
 }
 
+body div.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;  
+}
+
 body::after {
     box-sizing: inherit;
 }
@@ -22,6 +30,11 @@ div.navbar {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 div.leftbar a {
